@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(142, 81, 199);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: white;
+    width: 360px;
+    height: 530px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px; 
+     
+}
+.card img{
+    border-top-left-radius:15px ;
+    border-top-right-radius:15px ;
+    width: 360px;
+}
+.textBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+   width: 70%;
+   text-align: center;
+}
+.amountBox{
+    background-color: rgb(150, 223, 198);
+    width: 80%;
+    height: 10%;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.leftBox{
+    /* width: fit-content; */
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+#imgbox {
+   height: 40px;
+   width: 40px;
+}
+#imgbox img {
+   height: 2.5rem;
+   width:  2.5rem;
+   border-top-left-radius:1px ;
+   border-top-right-radius:1px ;
+}
+#textamountbox{
+    padding: 10px;
+}
+#paymentbutton{
+    width: 80%;
+    height: 9%;
+    border-radius: 10px;
+    background-color: rgb(3, 3, 83);
+    color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0,  0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.cancelOrder a {
+         text-decoration: none;
+         color: rgb(41, 37, 37);
+         font-weight: bold;
+         font-size: large;
+}
+
